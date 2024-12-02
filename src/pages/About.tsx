@@ -32,16 +32,16 @@ const About: React.FC = () => {
         <section className="bg-amber-900 text-white py-8 rounded-lg mb-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
             <div className="p-4">
-              <h3 className="text-xl font-bold">Standard Spices Per</h3>
-              <p>Themselves</p>
+              <h3 className="text-xl font-bold">Best Quality</h3>
+              <p>100% Vegetarian</p>
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">25 Total Products</h3>
+              <h3 className="text-xl font-bold">07 Total Products</h3>
               <p>And Growing</p>
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">2 Currently Service in</h3>
-              <p>Countries</p>
+              <h3 className="text-xl font-bold">Shipping</h3>
+              <p>India & UK</p>
             </div>
           </div>
         </section>
@@ -62,8 +62,8 @@ const About: React.FC = () => {
             </p>
             <h3 className="text-xl font-bold">Our Products are registered</h3>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-              <li>FSSAI No 10020051003037</li>
-              <li>MSME No UDYAM-MH-33-0123456</li>
+              <li>FSSAI No 11523083000602</li>
+              <li>100% Suitable for Vegetarian</li>
               <li>No harmful ingredients</li>
             </ul>
             <Link 

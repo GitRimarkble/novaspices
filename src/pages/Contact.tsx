@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Map from '../components/Map';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -87,7 +86,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">info@novaspices.co.in</p>
+                    <p className="text-gray-600">admin@novaspices.co.in</p>
                   </div>
                 </div>
               </div>
@@ -187,11 +186,16 @@ const Contact: React.FC = () => {
 
         {/* Map Section */}
         <div className="mt-12">
-          <Map
-            apiKey="YOUR_GOOGLE_MAPS_API_KEY" // Replace with your actual API key
-            latitude={37.7749}
-            longitude={-122.4194}
-          />
+          <iframe
+            src={`https://www.google.com/maps?q=19.079528,73.010167&hl=es;z=14&output=embed`}
+            width="100%"
+            height="450"
+            frameBorder="0"
+            style={{ border: 0 }}
+            allowFullScreen
+            aria-hidden="false"
+            tabIndex={0}
+          ></iframe>
         </div>
       </div>
     </div>
