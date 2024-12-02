@@ -15,7 +15,7 @@ const productData: Product[] = [
   {
     id: 1,
     name: 'Asafoetida (Heeng) Kabuli Khada',
-    image: '/images/products/Compounding Asafoetida Kabuli Khada.jpg',
+    image: '/images/products/Compounding Asafoetida Kabuli Khada.JPG',
     description: {
       main: 'High-quality product designed for professional use with advanced features.',
       features: [
@@ -28,7 +28,7 @@ const productData: Product[] = [
   {
     id: 2,
     name: 'Asafoetida Black (Heeng) Khada',
-    image: '/images/products/Compounding Asafoetida Black Khada.jpg',
+    image: '/images/products/Compounding Asafoetida Black Khada.JPG',
     description: {
       main: 'Reliable solution for everyday business needs.',
       features: [
@@ -41,7 +41,7 @@ const productData: Product[] = [
   {
     id: 3,
     name: 'Asafoetida Brown (Heeng) Khada',
-    image: '/images/products/Compounding Asafoetida Brown Khada.jpg',
+    image: '/images/products/Compounding Asafoetida Brown Khada.JPG',
     description: {
       main: 'Comprehensive solution for large-scale operations.',
       features: [
@@ -54,7 +54,7 @@ const productData: Product[] = [
   {
     id: 4,
     name: 'Asafoetida Black (Heeng) Khada',
-    image: '/images/products/Compounding Asafoetida Black Khada.jpg',
+    image: '/images/products/Compounding Asafoetida Black Khada.JPG',
     description: {
       main: 'Efficient solution for small-scale operations.',
       features: [
@@ -67,7 +67,7 @@ const productData: Product[] = [
   {
     id: 5,
     name: 'Asafoetida (Heeng) Black Powder',
-    image: '/images/products/Compounding Asafoetida Black Powder.jpg',
+    image: '/images/products/Compounding Asafoetida Black Powder.JPG',
     description: {
       main: 'Advanced solution for specialized needs.',
       features: [
@@ -80,7 +80,7 @@ const productData: Product[] = [
   {
     id: 6,
     name: 'Asafoetida (Heeng) Yellow Powder',
-    image: '/images/products/Compounding Asafoetida Yellow Powder.jpg',
+    image: '/images/products/Compounding Asafoetida Yellow Powder.JPG',
     description: {
       main: 'Best solution for small business.',
       features: [
@@ -93,7 +93,7 @@ const productData: Product[] = [
   {
     id: 7,
     name: 'Asafoetida (Heeng) Brown Powder',
-    image: '/images/products/Compounding Asafoetida Brown Powder.jpg',
+    image: '/images/products/Compounding Asafoetida Brown Powder.JPG',
     description: {
       main: 'Best solution for small business.',
       features: [

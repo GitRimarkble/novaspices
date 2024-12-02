@@ -102,13 +102,13 @@ const Home: React.FC = () => {
               },
               {
                 id: 2,
-                name: 'Compounding Asafoetida',
+                name: 'Compounding Asafoetida (Heeng)',
                 description: 'Premium quality asafoetida for enhanced taste',
                 image: '/images/products/Compounding Asafoetida Black Khada.jpg'
               },
               {
                 id: 3,
-                name: 'Premium Spice Mix',
+                name: 'Compounding Asafoetida (Heeng)',
                 description: 'Perfectly blended spices for rich flavors',
                 image: '/images/products/Compounding Asafoetida Kabuli Khada.jpg'
               }
