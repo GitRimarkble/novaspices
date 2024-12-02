@@ -1,0 +1,143 @@
+Project Overview
+Create a fully responsive, mobile-friendly website with a modern, professional design focusing on user experience and clean navigation.
+
+## Technical Requirements
+- Mobile-first responsive design
+- React.js for frontend development
+- Tailwind CSS for styling
+- React Router for navigation
+- Fully responsive across all device sizes
+- Integrate WhatsApp API for product contact
+- Google Maps integration
+- SEO-friendly structure
+
+## Site Structure
+### Global Components
+1. Header
+   - Logo placement (top left)
+   - Navigation Menu:
+     * Home
+     * About Us
+     * Products
+     * Contact Us
+   - Mobile-friendly hamburger menu for smaller screens
+
+2. Dynamic Footer
+   - Logo section
+   - Social Media Icons
+     * Minimum 4 platforms (Facebook, Instagram, LinkedIn, Twitter)
+   - Quick Links vertical menu
+   - Contact Information
+   - Copyright notice
+
+## Page Specifications
+
+### Home Page
+1. Hero Section
+   - Fixed hero image (full-width)
+   - High-resolution, relevant brand imagery
+   - Optional subtle overlay or gradient
+
+2. About Preview Section
+   - Image-Text Layout
+     * Image on left
+     * Text content on right
+     * Compelling headline
+     * Subheading
+     * Descriptive paragraph
+
+3. Product Showcase 1
+   - 3x3 Grid Layout
+   - Product Cards
+     * High-quality product images
+     * Product name
+     * Brief description
+     * "View Details" button for each product
+   - Responsive grid adaptation for different screen sizes
+
+4. Secondary Hero Section
+   - Side-by-side layout
+     * Headline
+     * Two subheadings
+     * Descriptive paragraph
+   - Minimal, impactful design
+
+5. Product Showcase 2
+   - Similar to first showcase (3x3 grid)
+   - Alternate design/color scheme
+
+6. Inquiry Form
+   - Fields:
+     * Full Name (required)
+     * Email (required)
+     * Phone Number
+     * Inquiry Subject
+     * Message
+   - Form Validation
+   - Captcha integration
+   - Clear, prominent submit button
+
+### About Us Page
+- Company history
+- Mission and vision statement
+- Team member profiles (optional)
+- High-quality team or workplace images
+- Timeline or achievement highlights
+
+### Products Page
+- Comprehensive product catalog
+- Filterable/Searchable products
+- Individual product cards
+- WhatsApp Contact Button
+   * Direct link to WhatsApp with pre-filled message template
+   * Unique product inquiry link for each product
+
+### Contact Us Page
+- Contact Information
+- Inquiry Form (similar to home page)
+- Google Maps Integration
+   * Pinpoint exact business location
+   * Responsive map implementation
+   * Directions link
+- Contact details
+- Operating hours
+
+## Performance & Optimization
+- Lazy loading for images
+- Optimize asset sizes
+- Implement caching strategies
+- Minimal initial load time
+
+## SEO Considerations
+- Semantic HTML5 structure
+- Meta tags for each page
+- Alt text for images
+- Structured data implementation
+
+## Accessibility
+- WCAG 2.1 compliance
+- Keyboard navigation support
+- Screen reader friendly
+
+## Additional Technical Specifications
+- Use latest React hooks
+- Implement state management (Redux/Context API)
+- Error boundary implementation
+- Environment configuration management
+
+## Deployment Preparation
+- Create build scripts
+- Configure CI/CD pipeline
+- prepare to deploys
+
+## Design Guidelines
+- Color Scheme: [Specify brand colors]
+- Typography: Clean, modern sans-serif
+- Consistent design language across all pages
+- Micro-interactions and subtle animations
+
+## Notes for Implementation
+- Prioritize mobile user experience
+- Ensure cross-browser compatibility
+- Implement responsive images
+- Create reusable component library
