@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <Link to="/">
               <img 
-                src="/novaspices logo.png" 
+                src="/nov.png" 
                 alt="Nova Spices" 
-                className="h-16 w-auto brightness-0 invert" 
+                className="h-20 w-auto brightness-100" 
               />
             </Link>
             <p className="text-gray-400">

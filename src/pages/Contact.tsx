@@ -9,18 +9,25 @@ const Contact: React.FC = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
-    });
+    const { name, email, message } = formData;
+
+    try {
+      const response = await fetch('/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        alert('Message sent successfully!');
+      } else {
+        alert('Failed to send message.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

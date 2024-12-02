@@ -14,8 +14,8 @@ interface Product {
 const productData: Product[] = [
   {
     id: 1,
-    name: 'Nova Turmeric Powder',
-    image: '/images/products/Turmeric Powder.jpg',
+    name: 'Asafoetida (Heeng) Kabuli Khada',
+    image: '/images/products/Compounding Asafoetida Kabuli Khada.jpg',
     description: {
       main: 'High-quality product designed for professional use with advanced features.',
       features: [
@@ -27,7 +27,7 @@ const productData: Product[] = [
   },
   {
     id: 2,
-    name: 'Asafoetida Black Khada',
+    name: 'Asafoetida Black (Heeng) Khada',
     image: '/images/products/Compounding Asafoetida Black Khada.jpg',
     description: {
       main: 'Reliable solution for everyday business needs.',
@@ -40,7 +40,7 @@ const productData: Product[] = [
   },
   {
     id: 3,
-    name: 'Asafoetida Brown Khada',
+    name: 'Asafoetida Brown (Heeng) Khada',
     image: '/images/products/Compounding Asafoetida Brown Khada.jpg',
     description: {
       main: 'Comprehensive solution for large-scale operations.',
@@ -53,7 +53,7 @@ const productData: Product[] = [
   },
   {
     id: 4,
-    name: 'Product 4',
+    name: 'Asafoetida Black (Heeng) Khada',
     image: '/images/products/Compounding Asafoetida Black Khada.jpg',
     description: {
       main: 'Efficient solution for small-scale operations.',
@@ -66,8 +66,8 @@ const productData: Product[] = [
   },
   {
     id: 5,
-    name: 'Product 5',
-    image: '/images/products/Compounding Asafoetida Brown Khada.jpg',
+    name: 'Asafoetida (Heeng) Black Powder',
+    image: '/images/products/Compounding Asafoetida Black Powder.jpg',
     description: {
       main: 'Advanced solution for specialized needs.',
       features: [
@@ -79,8 +79,8 @@ const productData: Product[] = [
   },
   {
     id: 6,
-    name: 'Product 6',
-    image: '/images/products/Compounding Asafoetida Brown Powder.jpg',
+    name: 'Asafoetida (Heeng) Yellow Powder',
+    image: '/images/products/Compounding Asafoetida Yellow Powder.jpg',
     description: {
       main: 'Best solution for small business.',
       features: [
@@ -92,8 +92,8 @@ const productData: Product[] = [
   },
   {
     id: 7,
-    name: 'Product 7',
-    image: '/images/products/Compounding Asafoetida Kabuli Khada.jpg',
+    name: 'Asafoetida (Heeng) Brown Powder',
+    image: '/images/products/Compounding Asafoetida Brown Powder.jpg',
     description: {
       main: 'Best solution for small business.',
       features: [
