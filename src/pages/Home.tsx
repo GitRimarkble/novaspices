@@ -6,6 +6,12 @@ const Home: React.FC = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
+  const featuredCourses = [
+    { id: 1, name: 'Course 1', description: 'Description for Course 1' },
+    { id: 2, name: 'Course 2', description: 'Description for Course 2' },
+    // Add more courses as needed
+  ];
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const formData = { name, email, message };

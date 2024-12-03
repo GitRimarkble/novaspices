@@ -56,7 +56,7 @@ const RefundPolicy: React.FC = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">3. Exchanges</h2>
             <p className="text-gray-600">
-              We only replace items if they are defective or damaged. If you need to exchange an item for the same product, please contact us at admin@novaspices.co.in.
+              We only replace items if they are defective or damaged. If you need to exchange an item for the same product, please contact us at novaadmin@novaspices.co.in.
             </p>
           </section>
 
@@ -70,7 +70,7 @@ const RefundPolicy: React.FC = () => {
               <p>The Commodity Exchange Building, 1st Floor, Office No.110,</p>
               <p>Plot No. 2,3 and 4, Sector 19 Vashi,</p>
               <p>Navi Mumbai- 400705, Maharashtra.</p>
-              <p>Email: admin@novaspices.co.in</p>
+              <p>Email: novaadmin@novaspices.co.in</p>
               <p>Mobile: +91-9137872565</p>
             </div>
           </section>
